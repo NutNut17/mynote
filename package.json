@@ -1,0 +1,17 @@
+{
+  "name": "nut17-notes",
+  "scripts": {
+    "dev": "nuxt dev --extends docus",
+    "build": "nuxt build --extends docus"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.10.0",
+    "better-sqlite3": "^12.2.0",
+    "docus": "latest",
+    "motion-v": "^1.7.6",
+    "nuxt": "^4.1.2",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "three": "^0.182.0"
+  }
+}
