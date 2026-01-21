@@ -32,4 +32,12 @@ export default defineNuxtConfig({
       },
     },
   },
+  extends: '@nuxt-themes/docus',
+  app: {
+    baseURL: '/nut17-note/', 
+    buildAssetsDir: 'assets',
+  },
+  nitro: {
+    preset: 'github-pages'
+  }
 })
