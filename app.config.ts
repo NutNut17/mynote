@@ -5,7 +5,7 @@ export default defineAppConfig({
         nuxt: 'https://nuxt.com',
     },
     github: {
-        url: 'https://github.com/nuxt-content/docus',
+        url: 'https://github.com/NutNut17/nut17-note',
         branch: 'main',
         rootDir: 'docs'
     }
