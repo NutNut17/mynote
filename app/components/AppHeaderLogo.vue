@@ -14,7 +14,7 @@ const appConfig = useAppConfig()
     {{ appConfig.header?.title || '{appConfig.header.title}' }}
   </span> -->
   <div class="flex items-center gap-2">
-    <img src="/images/nyancat.svg" alt="Logo" class="h-8 w-auto" />
+    <img :src="'/images/nyancat.svg'" alt="Logo" class="h-8 w-auto" />
     <span class="text-xl font-bold">Nut17 Notes</span>
   </div>
 </template>
