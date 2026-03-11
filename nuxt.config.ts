@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   },
   extends: '@nuxt-themes/docus',
   app: {
-    baseURL: '/nut17-note/',
+    baseURL: '/',
     // buildAssetsDir: 'assets',
   },
   // image: {

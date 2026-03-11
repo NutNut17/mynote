@@ -1,5 +1,5 @@
 {
-  "name": "nut17-notes",
+  "name": "mynote",
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus"
