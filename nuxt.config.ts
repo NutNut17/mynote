@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     }],
   },
   routeRules: {
-    '/': { redirect: '/en/getting-started/introduction' }
+    '/': { redirect: '/en' }
   },
   // docus: {
   //   aside: {

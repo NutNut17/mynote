@@ -48,7 +48,6 @@ A collection of my personal notes of what I've learned and found interesting.
   :::u-page-feature
   ---
   icon: i-lucide-code-2
-  target: _blank
   to: /en/gpl/python
   ---
   #title
@@ -61,7 +60,6 @@ A collection of my personal notes of what I've learned and found interesting.
   :::u-page-feature
   ---
   icon: i-lucide-binary
-  target: _blank
   to: /en/cs/dsa
   ---
   #title
@@ -74,7 +72,6 @@ A collection of my personal notes of what I've learned and found interesting.
   :::u-page-feature
   ---
   icon: i-lucide-app-window
-  target: _blank
   to: /en/web/web-structure
   ---
   #title
@@ -87,7 +84,6 @@ A collection of my personal notes of what I've learned and found interesting.
   :::u-page-feature
   ---
   icon: i-lucide-brain
-  target: _blank
   to: /en/cs/ai
   ---
   #title
@@ -100,7 +96,6 @@ A collection of my personal notes of what I've learned and found interesting.
   :::u-page-feature
   ---
   icon: i-lucide-lock
-  target: _blank
   to: /en/cs/cybersecurity
   ---
   #title
@@ -113,7 +108,6 @@ A collection of my personal notes of what I've learned and found interesting.
   :::u-page-feature
   ---
   icon: i-lucide-cloud
-  target: _blank
   to: /en/dev/system-design
   ---
   #title

@@ -4,6 +4,8 @@
 *.webp
 *.svg
 
+.amplify-hosting
+
 # Nuxt dev/build outputs
 .output
 .data
