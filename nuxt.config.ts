@@ -35,17 +35,9 @@ export default defineNuxtConfig({
   extends: '@nuxt-themes/docus',
   app: {
     baseURL: '/',
-    // buildAssetsDir: 'assets',
   },
-  // image: {
-  //   provider: 'ipx',
-  //   ipx: {
-  //     // This ensures IPX looks in the right spot regardless of the baseURL
-  //     baseURL: '/'
-  //   }
-  // },
+
   nitro: {
-    // preset: 'github-pages'
     preset: 'aws-amplify'
   },
   robots: { robotsTxt: false },
