@@ -32,7 +32,7 @@ seo:
 }
 ```
 
-![patrix](images/minecraft/texture/patrix.png)
+![patrix](/images/minecraft/texture/patrix.png)
 
 {{< link-card
   title="Patrix Texture Pack"
@@ -42,7 +42,7 @@ seo:
 
 #### BlockPixel Texture Pack
 
-The texture pack I love the most when 多玩我的世界盒子 is still alive. Created by Chinese.
+The texture pack I love the most when 多玩?��?世�??��? is still alive. Created by Chinese.
 
 ```json
 {
@@ -55,7 +55,7 @@ The texture pack I love the most when 多玩我的世界盒子 is still alive. C
 }
 ```
 
-![blockpixel](images/minecraft/texture/blockpixel.png)
+![blockpixel](/images/minecraft/texture/blockpixel.png)
 
 {{< link-card
   title="BlockPixel Texture Pack"
@@ -79,7 +79,7 @@ Vanilla 3D experience.
 }
 ```
 
-![classic3d](images/minecraft/texture/classic3d.png)
+![classic3d](/images/minecraft/texture/classic3d.png)
 
 {{< link-card
   title="Classic 3D"
@@ -105,7 +105,7 @@ An fps-friendly realistic texture pack. Ready for ray tracing in Java and Bedroc
 }
 ```
 
-![optimumrealism](images/minecraft/texture/optimumrealism.png)
+![optimumrealism](/images/minecraft/texture/optimumrealism.png)
 
 {{< link-card
   title="Optimum Realism Texture Pack"
@@ -131,7 +131,7 @@ Designed with incredible attention to details.
 }
 ```
 
-![realistico](images/minecraft/texture/realistico.png)
+![realistico](/images/minecraft/texture/realistico.png)
 
 {{< link-card
   title="Realistico Texture Pack"
@@ -159,7 +159,7 @@ Ultrarealistic.
 }
 ```
 
-![umsoea](images/minecraft/texture/umsoea.png)
+![umsoea](/images/minecraft/texture/umsoea.png)
 
 {{< link-card
   title="Umsoea RT Texture Pack"
@@ -185,7 +185,7 @@ Super detailed vanilla experience. Blocky feel.
 }
 ```
 
-![realiscraft](images/minecraft/texture/realiscraft.png)
+![realiscraft](/images/minecraft/texture/realiscraft.png)
 
 {{< link-card
   title="RealisCraft Texture Pack"
@@ -211,7 +211,7 @@ The most photorealistic texture pack.
 }
 ```
 
-![lunahd](images/minecraft/texture/lunahd.png)
+![lunahd](/images/minecraft/texture/lunahd.png)
 
 {{< link-card
   title="Luna HD Texture Pack"
@@ -237,7 +237,7 @@ Standard version with PBR and enhanced version with POM. Sci-Fi Mod have a futur
 }
 ```
 
-![legendaryrt](images/minecraft/texture/legendaryrt.png)
+![legendaryrt](/images/minecraft/texture/legendaryrt.png)
 
 {{< link-card
   title="Legendarary RT Texture Pack"
@@ -262,7 +262,7 @@ Modern realistic. Comes with furniture packs.
 }
 ```
 
-![realismmats](images/minecraft/texture/realismmats.png)
+![realismmats](/images/minecraft/texture/realismmats.png)
 
 {{< link-card
   title="Realism Mats Texture Pack"
@@ -288,7 +288,7 @@ Ultrarealistic.
 }
 ```
 
-![modernarch](images/minecraft/texture/modernarch.png)
+![modernarch](/images/minecraft/texture/modernarch.png)
 
 {{< link-card
   title="Modern Arch Texture Pack"
@@ -313,7 +313,7 @@ Modern texture pack with wide range of furnitures. Only playable on optifine and
 }
 ```
 
-![cubed](images/minecraft/texture/cubed.png)
+![cubed](/images/minecraft/texture/cubed.png)
 
 {{< link-card
   title="Cubed Texture Pack"
@@ -339,7 +339,7 @@ Japanese themed texture pack. The creator of this texture pack also have other i
 }
 ```
 
-![nicortx](images/minecraft/texture/nicortx.png)
+![nicortx](/images/minecraft/texture/nicortx.png)
 
 {{< link-card
   title="NicoRTX Texture Pack"

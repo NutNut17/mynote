@@ -19,33 +19,33 @@ I have always been interested in building on Minecraft. Project N is my planned 
 
 **City**
 
-![City](images/minecraft/showcase/city.jpg)
+![City](/images/minecraft/showcase/city.jpg)
 
 Shader: Complementary Reimagined
 
-![City2](images/minecraft/showcase/city2.png)
+![City2](/images/minecraft/showcase/city2.png)
 
 Shader: Kappa
 
-![City3](images/minecraft/showcase/city3.png)
+![City3](/images/minecraft/showcase/city3.png)
 
 **NCUE Dorm 10**
 
 Shader: BSL
 
-![dorm10](images/minecraft/showcase/dorm10.png)
+![dorm10](/images/minecraft/showcase/dorm10.png)
 
 **Sapi Old Village**
 
-![Sapi](images/minecraft/showcase/sapi.jpg)
+![Sapi](/images/minecraft/showcase/sapi.jpg)
 
 **On Developement**
 
 Shader: Bliss
 
-![roadintersection](images/minecraft/showcase/roadintersection.png)
-![klcc](images/minecraft/showcase/klcc.png)
-![city4](images/minecraft/showcase/city4.png)
+![roadintersection](/images/minecraft/showcase/roadintersection.png)
+![klcc](/images/minecraft/showcase/klcc.png)
+![city4](/images/minecraft/showcase/city4.png)
 
 ### Sapi
 
@@ -55,20 +55,20 @@ Legacy map started as a survival multiplayer world since 2017.
 
 Shader: Kelly's RTX
 
-![modernhouse](images/minecraft/showcase/modernhouse.jpg)
-![nanyangst1](images/minecraft/showcase/nanyangst1.png)
-![univ1](images/minecraft/showcase/univ1.png)
-![univ2](images/minecraft/showcase/univ2.png)
-![city1](images/minecraft/showcase/city1.png)
+![modernhouse](/images/minecraft/showcase/modernhouse.jpg)
+![nanyangst1](/images/minecraft/showcase/nanyangst1.png)
+![univ1](/images/minecraft/showcase/univ1.png)
+![univ2](/images/minecraft/showcase/univ2.png)
+![city1](/images/minecraft/showcase/city1.png)
 
 **Oriental**
 
 Shader: Sildur's Vibrant
 
-![oriental1](images/minecraft/showcase/oriental1.png)
-![oriental2](images/minecraft/showcase/oriental2.png)
-![oriental3](images/minecraft/showcase/oriental3.png)
+![oriental1](/images/minecraft/showcase/oriental1.png)
+![oriental2](/images/minecraft/showcase/oriental2.png)
+![oriental3](/images/minecraft/showcase/oriental3.png)
 
 **Taichung Train Station**
 
-![taichungtrainstation](images/minecraft/showcase/taichungtrainstation.png)
+![taichungtrainstation](/images/minecraft/showcase/taichungtrainstation.png)

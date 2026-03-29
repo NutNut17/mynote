@@ -16,11 +16,11 @@ seo:
 
 ### Project Map
 
-![map](images/minecraft/planning/wholemap1.png)
+![map](/images/minecraft/planning/wholemap1.png)
 
 ### Main Island
 
-![main](images/minecraft/planning/main_island.png)
+![main](/images/minecraft/planning/main_island.png)
 
 A populus island with smooth blending between different theme of cities. Expressway is built to connect all areas.
 
@@ -57,7 +57,7 @@ Located at south plains of the island. This is a well planned North America them
 | - | - | - |
 | Townhouse Street | Soho House | Alpine1 [soho penthouse](https://youtu.be/7CK2x3HyHXI?si=8cw78-Ca2Orkvx1x) |
 | Modern Street | Galleria - Showroom for arts, shaders, texture packs | Alpine1's video at [london](https://youtu.be/SQOlDp9txT4?si=icO2I2e8Co_v9CMe) |
-| Modern Street | Starbucks | MC老玩家的一生, modified |
+| Modern Street | Starbucks | MC?�玩家�?一?? modified |
 | NYC Street | NYC | [Pinterest1](https://www.pinterest.com/pin/2603712281850828/), [Pinterest2](https://www.pinterest.com/pin/8585055535931878/) |
 | Port | Ships | 3D models from sketchfab: [Crane](https://skfb.ly/69zJo), [Cruise](https://skfb.ly/oG8xG), [Large Cargo](https://skfb.ly/oUXZK), [Small Cargo](https://skfb.ly/6W88o), [Yatch1](https://skfb.ly/oN9PU), [Yatch2](https://skfb.ly/6XFzD), [Sailboat](https://skfb.ly/MoEQ), [Fishing Boat](https://skfb.ly/pqVyE) |
 
@@ -116,7 +116,7 @@ Taiwanese (concrete & modern), Japanese (suburban house), French(Paris), Italian
 
 ### Oriental Island
 
-![south](images/minecraft/planning/south_island.png)
+![south](/images/minecraft/planning/south_island.png)
 
 Located at the south of the main island. A east-asia themed island with various oriental style village around the island.
 
@@ -135,7 +135,7 @@ A port city on the east coast is build inspired by the Southeast Asia Nanyang st
 
 ### West Island
 
-![west](images/minecraft/planning/west_island.png)
+![west](/images/minecraft/planning/west_island.png)
 
 Located at west of main island. The shape of the island looks like the UK. It's an island of industrial, hanged structures at hills, Victorian and gregorian street house collections.
 
@@ -150,7 +150,7 @@ Located at west of main island. The shape of the island looks like the UK. It's 
 
 ### North Island
 
-![north](images/minecraft/planning/north_island.png)
+![north](/images/minecraft/planning/north_island.png)
 
 Located at north of main island. European medieval and fantasy themed island, connected with minecart railway systems. Lush cave hidden in the underground of the island.
 
@@ -165,7 +165,7 @@ Located at north of main island. European medieval and fantasy themed island, co
 
 ### Cherry Island
 
-![cherry](images/minecraft/planning/cherry_island.png)
+![cherry](/images/minecraft/planning/cherry_island.png)
 
 An small island of cherry blossom mountain surrounding a lake.
 
@@ -180,7 +180,7 @@ An small island of cherry blossom mountain surrounding a lake.
 
 ### Pale Island
 
-![pale](images/minecraft/planning/pale_island.png)
+![pale](/images/minecraft/planning/pale_island.png)
 
 An island of large pale garden.
 
@@ -195,7 +195,7 @@ An island of large pale garden.
 
 ### Villager Island
 
-![village](images/minecraft/planning/village_island.png)
+![village](/images/minecraft/planning/village_island.png)
 
 An small island beside west island with woodland mansion and village.
 
@@ -210,7 +210,7 @@ An small island beside west island with woodland mansion and village.
 
 ### Snow Island
 
-![snow](images/minecraft/planning/snow_island.png)
+![snow](/images/minecraft/planning/snow_island.png)
 
 Far northeast island of cold biomes.
 
@@ -225,7 +225,7 @@ Far northeast island of cold biomes.
 
 ### East Island
 
-![east](images/minecraft/planning/east_island.png)
+![east](/images/minecraft/planning/east_island.png)
 
 Northeast island of warm biomes.
 

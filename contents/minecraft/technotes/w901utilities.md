@@ -93,7 +93,7 @@ Mods is an addon for client side.
 
 #### Software and Website Utilities
 
-![Modrinth](images/minecraft/util/modrinth.png)
+![Modrinth](/images/minecraft/util/modrinth.png)
 
 {{< link-card
   title="Modrinth"
@@ -103,7 +103,7 @@ Mods is an addon for client side.
 
 ---
 
-![MCA Selector](images/minecraft/util/mcaselector.png)
+![MCA Selector](/images/minecraft/util/mcaselector.png)
 
 {{< link-card
   title="MCA Selector"
@@ -113,7 +113,7 @@ Mods is an addon for client side.
 
 ---
 
-![Amulet Editor](images/minecraft/util/amulet.png)
+![Amulet Editor](/images/minecraft/util/amulet.png)
 
 {{< link-card
   title="Amulet Editor"
@@ -123,7 +123,7 @@ Mods is an addon for client side.
 
 ---
 
-![Universal Minecraft Tool](images/minecraft/util/umt.png)
+![Universal Minecraft Tool](/images/minecraft/util/umt.png)
 
 {{< link-card
   title="Universal Minecraft Tool"
@@ -133,7 +133,7 @@ Mods is an addon for client side.
 
 ---
 
-![Seeder](images/minecraft/util/seeder.png)
+![Seeder](/images/minecraft/util/seeder.png)
 
 {{< link-card
   title="Seeder"
@@ -143,7 +143,7 @@ Mods is an addon for client side.
 
 ---
 
-![MC Map ItemTool](images/minecraft/util/mcmap.png)
+![MC Map ItemTool](/images/minecraft/util/mcmap.png)
 
 Create map in the game, then convert the image into a map generated in website, then replace the map to the original map in the game
 
@@ -155,7 +155,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![obj2sch](images/minecraft/util/obj2sch.png)
+![obj2sch](/images/minecraft/util/obj2sch.png)
 
 {{< link-card
   title="ObjToSchematic"
@@ -165,7 +165,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![Cubical](images/minecraft/util/cubical.png)
+![Cubical](/images/minecraft/util/cubical.png)
 
 {{< link-card
   title="Cubical"
@@ -175,7 +175,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![voxelizer](images/minecraft/util/voxelizer.png)
+![voxelizer](/images/minecraft/util/voxelizer.png)
 
 {{< link-card
   title="Voxelizer"
@@ -185,7 +185,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![Objmc](images/minecraft/util/objmc.png)
+![Objmc](/images/minecraft/util/objmc.png)
 
 {{< link-card
   title="Objmc"
@@ -195,7 +195,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![realitycapture](images/minecraft/util/realitycapture.png)
+![realitycapture](/images/minecraft/util/realitycapture.png)
 
 {{< link-card
   title="RealityCapture"
@@ -205,7 +205,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![worldpainter](images/minecraft/util/worldpainter.png)
+![worldpainter](/images/minecraft/util/worldpainter.png)
 
 {{< link-card
   title="World Painter"
@@ -215,7 +215,7 @@ Create map in the game, then convert the image into a map generated in website, 
 
 ---
 
-![worldpainter](images/minecraft/util/hueblocks.png)
+![worldpainter](/images/minecraft/util/hueblocks.png)
 
 {{< link-card
   title="HueBlocks"
@@ -254,19 +254,19 @@ These are combination of shaders and texture packs using path tracing only avail
 
 **Kelly's RTX**
 
-![Kelly's RTX](images/minecraft/util/rtxkelly.png)
+![Kelly's RTX](/images/minecraft/util/rtxkelly.png)
 
 **Vanilla RTX**
 
-![Vanilla RTX](images/minecraft/util/rtxvanilla.png)
+![Vanilla RTX](/images/minecraft/util/rtxvanilla.png)
 
 **Defined RTX**
 
-![Defined RTX](images/minecraft/util/rtxdefined.png)
+![Defined RTX](/images/minecraft/util/rtxdefined.png)
 
 **RealSource RTX**
 
-![RealSource RTX](images/minecraft/util/rtxrealsource.png)
+![RealSource RTX](/images/minecraft/util/rtxrealsource.png)
 
 #### Structure Block
 

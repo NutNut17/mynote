@@ -41,11 +41,11 @@ I took the lead in selecting the right tech stack, designing the system architec
 >}}
 
 {{< details "Show Website Pictures" >}}
-![System Design](images/sysdes-mobile.png)
-![System Design](images/sysdes-mobile2.png)
-![System Design](images/sysdes-login.png)
-![System Design](images/sysdes-register.png)
-![System Design](images/sysdes-admin.png)
+![System Design](/images/sysdes-mobile.png)
+![System Design](/images/sysdes-mobile2.png)
+![System Design](/images/sysdes-login.png)
+![System Design](/images/sysdes-register.png)
+![System Design](/images/sysdes-admin.png)
 {{< /details >}}
 
 ---
@@ -60,7 +60,7 @@ This project, "Dummy Chef Assistant: Generative AI-Controlled Recipe Recommendat
 
 Built an AI-based ingredient recognition system that recommends suitable recipes. Developed the frontend interface and trained a model with Yolov8 to identify and analyze over 100 ingredients. Eventually, implemented the final version using Gemini for ingredient recognition and recipe recommendations.
 
-![Topic](images/gradtopic.png)
+![Topic](/images/gradtopic.png)
 
 For graduation topic paper and poster, please refer to my project portfolio drive below.
 
@@ -76,7 +76,7 @@ For graduation topic paper and poster, please refer to my project portfolio driv
 
 Developed an IoT system integrating NVIDIA Jetson Nano, Yolo, and ROS for real-world applications.
 
-![Jetson Nano Project](images/jetsonnano.png)
+![Jetson Nano Project](/images/jetsonnano.png)
 
 We have two bot, alpha and beta. Alpha will be controlled manually through controller and stops when it detects an obstacle. While beta will follow wherever alpha go through computer vision. When alpha wants to move backwards, it will send signal and beta will move backwards together to avoid collision between two bot.
 
@@ -90,8 +90,8 @@ Lead the development of the system, optimize performance of the system, and trai
 
 Implement a Minecraft Launcher Desktop App with Tkinter and Python. The app allows users to launch Minecraft games and manage their settings.
 
-![Minecraft Launcher](images/minelauncher.png)
-![Minecraft Launcher](images/minelauncher2.png)
+![Minecraft Launcher](/images/minelauncher.png)
+![Minecraft Launcher](/images/minelauncher2.png)
 
 #### Role
 
@@ -111,7 +111,7 @@ Made a simple shopping website with PHP and MySQL.
 
 Made simple tetris-like game through Arduino and LED display on Practicum in Micropreprocessor course.
 
-![Tetris](images/tetris.png)
+![Tetris](/images/tetris.png)
 
 ---
 
@@ -119,4 +119,4 @@ Made simple tetris-like game through Arduino and LED display on Practicum in Mic
 
 Implement logic gate design knowledge on a 7-seg display from binary and decode to display signals in my favourite game Minecraft.
 
-![Minecraft Decoder](images/minedecoder.png)
+![Minecraft Decoder](/images/minedecoder.png)
