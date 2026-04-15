@@ -4,8 +4,7 @@ seo:
   description: A collection of my personal notes of what I've learned and found interesting.
 ---
 
-::morphing-gradient
-::
+:morphing-gradient
 
 ::u-page-hero
 #title
@@ -37,12 +36,11 @@ A collection of my personal notes of what I've learned and found interesting.
   :::
 ::
 
-::three{style="max-width: 1080px; margin: auto;"}
-::
+:three{style="max-width: 1080px; margin: auto;"}
 
 ::u-page-section
 #title
-[My Field of Study]{id="field-of-study"}
+[My Field of Study]{#field-of-study}
 
 #features
   :::u-page-feature
@@ -52,7 +50,7 @@ A collection of my personal notes of what I've learned and found interesting.
   ---
   #title
   Software Development
-  
+
   #description
   Curious on how things works, automation, and make ideas into reality elegantly.
   :::
@@ -64,7 +62,7 @@ A collection of my personal notes of what I've learned and found interesting.
   ---
   #title
   Computer Science
-  
+
   #description
   Understanding the theory knowledge of computing.
   :::
@@ -76,7 +74,7 @@ A collection of my personal notes of what I've learned and found interesting.
   ---
   #title
   Web Development
-  
+
   #description
   I value the presentation and user experience of an application.
   :::
@@ -88,7 +86,7 @@ A collection of my personal notes of what I've learned and found interesting.
   ---
   #title
   Artificial Intelligence
-  
+
   #description
   Understanding how machine learning works and how it changes the world.
   :::
@@ -100,7 +98,7 @@ A collection of my personal notes of what I've learned and found interesting.
   ---
   #title
   Cybersecurity
-  
+
   #description
   Understanding the foundation of computing and the security vulnerabilities.
   :::
@@ -112,12 +110,12 @@ A collection of my personal notes of what I've learned and found interesting.
   ---
   #title
   Cloud Computing
-  
+
   #description
   System Design, level-up solutions, I like things to be accessible, stable, and scalable.
   :::
-
 ::
+
 ::u-page-section
 #title
 My Favourite Tools
@@ -130,7 +128,7 @@ My Favourite Tools
   ---
   #title
   Python
-  
+
   #description
   The everyday language I use for scripting, AI and backend development. Growing day by day.
   :::
@@ -142,7 +140,7 @@ My Favourite Tools
   ---
   #title
   Vue.js
-  
+
   #description
   So far, my best experience frontend framework with everything I need in the Nuxt ecosystem. It is simple, fast, beautiful, modern and flexible.
   :::
@@ -154,7 +152,7 @@ My Favourite Tools
   ---
   #title
   Git
-  
+
   #description
   Start early and get used with version control system is essential for tracking changes and collaborative development.
   :::
@@ -166,7 +164,7 @@ My Favourite Tools
   ---
   #title
   VS Code
-  
+
   #description
   The extensions, shortcuts, debug, lightweight and complete IDE for all my development needs efficiently.
   :::
@@ -178,7 +176,7 @@ My Favourite Tools
   ---
   #title
   Google Gemini
-  
+
   #description
   Accelarate my ideas and answer all my curiosity. With recent Antigravity, boosted my productivity and save tons of time with rich AI IDE features.
   :::

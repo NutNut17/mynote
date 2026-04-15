@@ -5,6 +5,7 @@
 *.svg
 
 .amplify-hosting
+.claude
 
 # Nuxt dev/build outputs
 .output
@@ -37,6 +38,7 @@ logs
 
 # Temp files
 .tmp
+tmp/
 .profile
 *.0x
 

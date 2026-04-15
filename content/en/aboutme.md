@@ -15,5 +15,5 @@ I specialize in **web development** and **system architecture**. I love explorin
 - **Backend**: Node.js, Python
 - **Tools**: Git, Docker, VS Code
 
-Feel free to reach out via [email](mailto:example@example.com).
+Feel free to reach out via [email](mailto\:example@example.com).
 ::

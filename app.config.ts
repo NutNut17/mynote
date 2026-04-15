@@ -7,6 +7,20 @@ export default defineAppConfig({
     github: {
         url: 'https://github.com/NutNut17/mynote',
         branch: 'main',
-        rootDir: 'docs'
+        rootDir: '/'
+    },
+    assistant: {
+        // Floating input bar at the bottom of doc pages
+        floatingInput: true,
+        // "Explain with AI" button in the sidebar TOC
+        explainWithAi: true,
+        // Suggested questions shown when chat is empty
+        faqQuestions: [
+            'How do I get started?',
+            'What topics are covered in this documentation?',
+        ],
+        shortcuts: {
+            focusInput: 'meta_i'
+        }
     }
 })
