@@ -18,3 +18,31 @@ aside {
   overflow-y: hidden;
   text-wrap: no-wrap;
 }
+
+/* Fix horizontal scrollbar / "blind" outside website */
+html, body, #__nuxt {
+  overflow-x: clip !important;
+  max-width: 100vw !important;
+  position: relative;
+}
+
+/* This comment confirms main.css is being loaded correctly */
+:root {
+  --main-css-loaded: 'true';
+}
+
+
+
+
+/* Prevent tables and code blocks from causing horizontal overflow */
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+

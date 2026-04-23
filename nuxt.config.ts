@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     // mcp-toolkit and nuxt-studio are dev-only
     ...(isProd ? [] : ['nuxt-studio']),
   ],
-  css: ['~/assets/css/main.css', 'katex/dist/katex.min.css'],
+  css: ['@/assets/css/main.css', 'katex/dist/katex.min.css'],
   i18n: {
     defaultLocale: 'en',
     locales: [{

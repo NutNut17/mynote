@@ -1,5 +1,3 @@
 title: Getting Started with Docus
 icon: false
-navigation:
-  collapsed: true
-collapsed: true
+defaultOpen: true

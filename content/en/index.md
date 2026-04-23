@@ -36,7 +36,7 @@ A collection of my personal notes of what I've learned and found interesting.
   :::
 ::
 
-:three{style="max-width: 1080px; margin: auto;"}
+:three{.max-w-[1080px].mx-auto}
 
 ::u-page-section
 #title
