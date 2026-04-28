@@ -1,6 +1,6 @@
 # My Note
 
-This repository is a collection of my personal learning notes about computer technologies.
+This repository is a collection of my personal learning notes about computer technologies. Start authoring at `content/en`
 
 ## Quick Start
 

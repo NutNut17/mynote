@@ -130,7 +130,7 @@ My Favourite Tools
   Python
 
   #description
-  The everyday language I use for scripting, AI and backend development. Growing day by day.
+  The everyday scripting language I use for general scripting, AI and backend development. 
   :::
 
   :::u-page-feature
@@ -142,7 +142,7 @@ My Favourite Tools
   Vue.js
 
   #description
-  So far, my best experience frontend framework with everything I need in the Nuxt ecosystem. It is simple, fast, beautiful, modern and flexible.
+  My favorite frontend framework with everything I need in the Nuxt ecosystem. It is simple, fast, beautiful, modern and flexible.
   :::
 
   :::u-page-feature
@@ -154,7 +154,7 @@ My Favourite Tools
   Git
 
   #description
-  Start early and get used with version control system is essential for tracking changes and collaborative development.
+  Controlled development with version control system is essential for tracking changes and collaborative development.
   :::
 
   :::u-page-feature

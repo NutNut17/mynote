@@ -1,26 +1,37 @@
 {
   "name": "mynote",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt dev --extends docus --port 3001",
-    "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt build --extends docus",
-    "preview": "nuxt preview --extends docus"
+    "dev": "node scripts/generate-mermaid.mjs && cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt dev --extends docus --port 3001",
+    "build": "node scripts/generate-mermaid.mjs && cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt build --extends docus",
+    "generate-mermaid": "node scripts/generate-mermaid.mjs",
+    "preview": "nuxt preview --extends docus",
+    "test": "playwright test"
   },
   "dependencies": {
+    "@barzhsieh/nuxt-content-mermaid": "^2.2.3",
     "@iconify-json/logos": "^1.2.11",
     "@nuxt/content": "^3.10.0",
     "@nuxthub/core": "^0.10.7",
     "@nuxtjs/mcp-toolkit": "^0.12.0",
+    "@takumi-rs/core": "^1.1.2",
     "aws4fetch": "^1.0.20",
     "better-sqlite3": "^12.2.0",
     "docus": "^5.8.0",
+    "mermaid": "^11.12.3",
     "motion-v": "^1.7.6",
     "nuxt": "^4.1.2",
     "nuxt-studio": "^1.5.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
+    "secure-exec": "^0.2.1",
     "three": "^0.182.0"
   },
   "devDependencies": {
-    "cross-env": "^10.1.0"
+    "@mermaid-js/mermaid-cli": "^11.12.0",
+    "@playwright/test": "^1.59.1",
+    "cross-env": "^10.1.0",
+    "crypto": "^1.0.1",
+    "mdast-util-from-markdown": "^2.0.3",
+    "unist-util-visit": "^5.1.0"
   }
 }

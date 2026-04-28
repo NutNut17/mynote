@@ -1,0 +1,9 @@
+# Ignore all markdown files to prevent breaking MDC syntax (::: levels)
+**/*.md
+
+# Ignore build artifacts and cache
+mermaid-cache.json
+.nuxt/
+.output/
+node_modules/
+dist/

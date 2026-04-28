@@ -6,6 +6,9 @@
 
 .amplify-hosting
 .claude
+test-results
+playwright-report
+mermaid-cache.json
 
 # Nuxt dev/build outputs
 .output
