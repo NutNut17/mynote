@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'http://localhost:3001',
+    baseURL: process.env.BASE_URL || 'http://localhost:3000',
     trace: 'on-first-retry',
   },
   projects: [
@@ -17,9 +17,15 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
   ],
-  webServer: {
-    command: 'cross-env PORT=3001 node .amplify-hosting/compute/default/server.js',
-    url: 'http://localhost:3001',
+  webServer: process.env.TEST_MODE === 'prod' ? {
+    command: 'cross-env PORT=3000 node .amplify-hosting/compute/default/server.js',
+    url: 'http://localhost:3000',
+    reuseExistingServer: !process.env.CI,
+    stdout: 'pipe',
+    stderr: 'pipe',
+  } : {
+    command: 'npm run dev -- --port 3000',
+    url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
     stdout: 'pipe',
     stderr: 'pipe',

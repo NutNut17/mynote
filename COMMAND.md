@@ -8,7 +8,7 @@
 ## Custom Features
 
 - **Mermaid**: Use `::mermaid{name="unique-name"}`. SVGs are pre-generated via `scripts/generate-mermaid.mjs` into `public/mermaid/`.
-- **Testing**: Playwright tests are in `tests/`. Run `npx playwright test tests/mermaid.spec.ts` to validate Mermaid generation. Note: standard tests run on the dev server; they do not catch Nitro/Amplify-specific module resolution issues.
+- **Testing**: Using playwright tests
 
 ## Build & Deployment
 
@@ -16,10 +16,24 @@
   ```bash
   npm install --os=linux --cpu=x64 --cpu=arm64
   ```
-- **Runtime Fixes**: If you see `ERR_MODULE_NOT_FOUND` on production for sub-modules like `tailwindcss/colors`, add them to the `nitro.externals.inline` list in `nuxt.config.ts`.
-- **Production Build Test**: To test the actual production bundle locally:
-  ```bash
-  npm run build
-  npx nitro dev .output/server/index.mjs
-  ```
 
+## Test
+
+### Dev Test
+
+```powershell
+npm run dev
+
+# In another terminal:
+npx playwright test tests/smoke.spec.ts --project=chromium
+```
+
+## Production Build Test
+
+```powershell
+npm run build
+npx nitro dev .output/server/index.mjs
+
+# In another terminal:
+npx playwright test tests/smoke.spec.ts --project=chromium --baseUrl=http://localhost:3000
+```
