@@ -61,6 +61,7 @@ export default defineNuxtConfig({
     },
     externals: {
       external: ['secure-exec'],
+      inline: ['tailwindcss/colors'],
     },
   },
   // Studio config (dev-only module, but config is safe to keep)
