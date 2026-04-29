@@ -39,7 +39,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  extends: '@nuxt-themes/docus',
+  extends: 'docus',
   app: {
     baseURL: '/',
   },
@@ -48,10 +48,12 @@ export default defineNuxtConfig({
   mcp: {
     enabled: true,
   },
-  assistant: {
-    model: 'google/gemini-2.5-flash-preview',
-    mcpServer: '/mcp',
-    apiPath: '/__docus__/assistant',
+  docus: {
+    assistant: {
+      model: 'google/gemini-2.5-flash-preview',
+      mcpServer: '/mcp',
+      apiPath: '/__docus__/assistant',
+    },
   },
   nitro: {
     preset: 'aws-amplify',
