@@ -48,3 +48,10 @@ tmp/
 #VSC
 .history
 .wrangler
+
+
+.worktrees/
+
+.worktrees/mynote-154d737/.data
+.worktrees/mynote-eae373c/.data
+.worktrees/mynote-27af77c/.data
