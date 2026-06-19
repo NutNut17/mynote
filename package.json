@@ -43,6 +43,7 @@
     "uuid": "^14.0.0",
     "ai": "6.0.141",
     "@ai-sdk/vue": "3.0.141",
-    "nitropack": "2.13.2"
+    "nitropack": "2.13.2",
+    "@ai-sdk/gateway": "3.0.112"
   }
 }

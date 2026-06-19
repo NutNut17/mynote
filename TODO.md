@@ -1,4 +1,4 @@
 ## Known Problem Areas (active work)
 
-[] **Docus AI assistant not working** — see `devdocs/assistant.md`
+[x] **Docus AI assistant not working** — fixed, see `devdocs/assistant.md`
 [] Update this project

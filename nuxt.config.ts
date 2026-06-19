@@ -50,12 +50,10 @@ export default defineNuxtConfig({
   mcp: {
     enabled: true,
   },
-  docus: {
-    assistant: {
-      model: 'google/gemini-3-flash-preview',
-      mcpServer: '/mcp',
-      apiPath: '/__docus__/assistant',
-    },
+  assistant: {
+    model: 'openai/gpt-4o-mini',
+    mcpServer: '/mcp',
+    apiPath: '/__docus__/assistant',
   },
   llms: {
     domain: 'https://mynote.dev',
