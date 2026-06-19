@@ -87,4 +87,7 @@ export default defineNuxtConfig({
     }
   },
   robots: { robotsTxt: false },
+  runtimeConfig: {
+    aiGatewayApiKey: '',  // set via NUXT_AI_GATEWAY_API_KEY env var at runtime
+  },
 })
