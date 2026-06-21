@@ -47,44 +47,6 @@ assistant: {
 
 > Set in `.env` locally. In Amplify, set as an environment variable in the console under the `main` branch.
 
-## Model choice
-
-The Vercel AI Gateway free tier (no purchased credits beyond the $5/mo free allowance) does
-**not** allow Google Gemini models (`google/gemini-3-flash`, `google/gemini-2.5-flash-preview`,
-etc.) — these return `"Free tier users do not have access to this model"` regardless of the
-exact Gemini model name. `openai/gpt-4o-mini` works on the free tier, supports tool calling
-(needed for the `list-pages`/`get-page` MCP tools), and is very cheap.
-
-If switching providers later, verify directly against the gateway first:
-```bash
-curl https://ai-gateway.vercel.sh/v1/chat/completions \
-  -H "Authorization: Bearer $AI_GATEWAY_API_KEY" -H "Content-Type: application/json" \
-  -d '{"model":"<provider/model>","messages":[{"role":"user","content":"hi"}],"max_tokens":16}'
-```
-
-## Dependency pitfall: duplicate `@vercel/oidc`
-
-`@ai-sdk/gateway` (a transitive dep of `ai`) requires `@vercel/oidc`. If two versions get
-installed (one at top-level `node_modules/@vercel/oidc`, another nested under
-`node_modules/ai/node_modules/@vercel/oidc`), the browser bundle throws:
-
-```
-The requested module '.../node_modules/ai/node_modules/@vercel/oidc/dist/index-browser.js'
-does not provide an export named 'getContext'
-```
-
-This breaks the assistant chat UI (panel opens but renders a broken loading animation, no input).
-Docus's `optimizeDeps`/alias fix for `@vercel/oidc` only covers the top-level copy.
-
-**Fix**: pin `@ai-sdk/gateway` in `package.json` `overrides` to match the root-resolved version
-so npm dedupes to a single `@vercel/oidc` copy, then `npm install`:
-
-```json
-"overrides": {
-  "@ai-sdk/gateway": "3.0.112"
-}
-```
-
 ## Verifying locally
 
 ```bash
@@ -103,6 +65,51 @@ slide in from the right with a working input and FAQ suggestions.
 
 ## Cloud Setup (Amplify)
 
-1. Go to AWS Amplify Console → App `mynote` (d1x2divnj6b0hf) → Branch `main` → Environment variables
-2. Add `AI_GATEWAY_API_KEY` with the value from `.env`
-3. Redeploy
+`AI_GATEWAY_API_KEY` must be set at the **app level** (not branch level) so it is available
+during the build step. The Nitro Lambda reads it through runtimeConfig, not directly from
+`process.env` at request time.
+
+### Why runtimeConfig + Nitro plugin (not a bare env var)
+
+`@ai-sdk/gateway` reads `process.env.AI_GATEWAY_API_KEY` via `loadOptionalSetting`. On
+Amplify's SSR Lambda this env var is available during `npm run build` but **not** in the
+bundled Lambda runtime. Two mechanisms work together to fix this:
+
+1. **`nuxt.config.ts`** bakes the key into the bundle at build time:
+   ```ts
+   runtimeConfig: {
+     aiGatewayApiKey: process.env.AI_GATEWAY_API_KEY || '',
+   }
+   ```
+   Nitro serialises runtimeConfig into `_inlineRuntimeConfig` inside the bundle, so the
+   value survives into the Lambda.
+
+2. **`server/plugins/ai-gateway.ts`** exposes it where the docus handler expects it:
+   ```ts
+   export default defineNitroPlugin(() => {
+     const config = useRuntimeConfig()
+     if (config.aiGatewayApiKey && !process.env.AI_GATEWAY_API_KEY) {
+       process.env.AI_GATEWAY_API_KEY = config.aiGatewayApiKey as string
+     }
+   })
+   ```
+   Nitro plugins run at Lambda cold-start before any request handler, so `process.env` is
+   populated by the time `/__docus__/assistant` is hit.
+
+### Steps to set the env var via CLI
+
+```bash
+# Set at app level (all branches share it)
+aws amplify update-app \
+  --app-id d1x2divnj6b0hf \
+  --region ap-northeast-1 \
+  --environment-variables "AI_GATEWAY_API_KEY=<your-key>"
+```
+
+After adding/changing the key, trigger a redeploy — the value is baked at build time.
+
+### Model selection
+
+`openai/gpt-4o-mini` is used because Google Gemini models (`gemini-3-flash`,
+`gemini-2.5-flash-preview`) are blocked on the Vercel AI Gateway **free tier**. If you
+upgrade to a paid Vercel plan, you can switch the model in `nuxt.config.ts`.
