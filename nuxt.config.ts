@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/content',
     'motion-v/nuxt',
-    // mcp-toolkit and nuxt-studio are dev-only
+    '@nuxtjs/mcp-toolkit',
+    // nuxt-studio is dev-only
     ...(isProd ? [] : ['nuxt-studio']),
   ],
   css: ['@/assets/css/main.css', 'katex/dist/katex.min.css'],
@@ -26,6 +27,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/': { redirect: '/en' },
+    '/llm.txt': { redirect: '/llms.txt' },
   },
   content: {
     build: {
@@ -48,11 +50,18 @@ export default defineNuxtConfig({
   mcp: {
     enabled: true,
   },
-  docus: {
-    assistant: {
-      model: 'google/gemini-2.5-flash-preview',
-      mcpServer: '/mcp',
-      apiPath: '/__docus__/assistant',
+  assistant: {
+    model: 'openai/gpt-4o-mini',
+    mcpServer: '/mcp',
+    apiPath: '/__docus__/assistant',
+  },
+  llms: {
+    domain: 'https://mynote.dev',
+    title: 'MyNote',
+    description: 'A high-performance, aesthetically driven knowledge engine built to bridge the gap between raw ideas and polished presentation.',
+    full: {
+      title: 'MyNote Full Documentation',
+      description: 'The complete documentation for MyNote, including getting started guides, core concepts, and custom features.',
     },
   },
   nitro: {
@@ -78,4 +87,7 @@ export default defineNuxtConfig({
     }
   },
   robots: { robotsTxt: false },
+  runtimeConfig: {
+    aiGatewayApiKey: process.env.AI_GATEWAY_API_KEY || '',
+  },
 })

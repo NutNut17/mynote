@@ -21,4 +21,5 @@ Docus is a documentation framework based on nuxt.js.
 [MIT License](https://opensource.org/licenses/MIT) 
 
 - For detailed documentation on customizing your Docus project, read `Getting Started with Docus` page
-- Read [`COMMAND.md`](COMMAND.md) for detailed instructions on development and deployment on this project.
+- Read [`devdocs/`](devdocs/) for detailed instructions on development and deployment on this project.
+- This project hosted Docus at AWS Amplify

@@ -1,7 +1,8 @@
 {
   "name": "mynote",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "node scripts/generate-mermaid.mjs && cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt dev --extends docus --port 3001",
+    "dev": "node scripts/generate-mermaid.mjs && cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt dev --extends docus --port 3000",
     "build": "node scripts/generate-mermaid.mjs && cross-env NODE_OPTIONS=--max-old-space-size=8192 nuxt build --extends docus",
     "generate-mermaid": "node scripts/generate-mermaid.mjs",
     "preview": "nuxt preview --extends docus",
@@ -14,16 +15,15 @@
     "@iconify-json/logos": "^1.2.11",
     "@nuxt/content": "^3.10.0",
     "@nuxthub/core": "^0.10.7",
-    "@nuxtjs/mcp-toolkit": "^0.12.0",
-    "@takumi-rs/core": "^1.1.2",
+    "@nuxtjs/mcp-toolkit": "^0.14.0",
     "aws4fetch": "^1.0.20",
     "better-sqlite3": "^12.2.0",
     "commander": "13.1.0",
-    "docus": "^5.8.0",
+    "docus": "5.9.0",
     "mermaid": "^11.12.3",
     "motion-v": "^1.7.6",
-    "nuxt": "^4.1.2",
-    "nuxt-studio": "^1.5.1",
+    "nuxt": "4.2.2",
+    "nuxt-studio": "1.5.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "secure-exec": "^0.2.1",
@@ -40,6 +40,11 @@
     "unist-util-visit": "^5.1.0"
   },
   "overrides": {
-    "uuid": "^14.0.0"
+    "uuid": "^14.0.0",
+    "ai": "6.0.141",
+    "@ai-sdk/vue": "3.0.141",
+    "nitropack": "2.13.2",
+    "@ai-sdk/gateway": "3.0.112",
+    "cac": "6.7.14"
   }
 }
