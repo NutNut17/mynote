@@ -82,9 +82,3 @@ At dev startup:
 - **Dev**: `/images/*` served from `public/images/` locally
 - **Prod**: `ProseImg.vue` rewrites `/images/*` → `https://mynote-storage.s3.ap-northeast-1.amazonaws.com/public/images/*`
 - Rationale: AWS Amplify's image optimizer cannot fetch from Lambda; direct S3 URLs bypass it
-
-## Config Quirks
-
-- `config_failing.ts` and `config_working.ts` in root are historical snapshots — the difference is `extends: 'docus'` vs `extends: '@nuxt-themes/docus'`
-- `nitro.externals.inline: ['tailwindcss/colors']` — required to prevent Amplify build crash
-- `secure-exec` is externalized (native binary, can't be bundled)
